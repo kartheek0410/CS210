@@ -1,0 +1,7 @@
+000000 no such label
+000001 not a number
+000002 missing operand
+000003 unexpected operand
+000004 no such label
+000005 bogus mnemonic
+000006 bogus mnemonic

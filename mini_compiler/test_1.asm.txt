@@ -1,0 +1,12 @@
+main: ldc 21
+  adc 4
+  call start
+  ldl 0
+  ldl 2
+start:  ldc     0           ; Load index i = 0
+        adc     0           ; Initialize accumulator A = 0 (i)
+        stl     4           ; Store i in memory location 4
+  call start
+        ldc     2           ; Load value 2
+        adc     1           ; Offset by 1
+HALT
